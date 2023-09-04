@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
     padding: 20px;
   }
-  
+  /*padding pushes the content away from the border so it doesn't look scuffed*/
   h1 {
     font-size: 40px;
     margin-top: 0;
@@ -13,7 +13,7 @@ body {
   h2 {
     font-size: 30px;
   }
-  
+  /*.established is calling the class="established" directly to style it, class calling*/
   .established {
     font-style: italic;
   }
@@ -25,6 +25,7 @@ body {
   .menu {
     width: 80%;
     background-color: burlywood;
+    /* margin properties set to auto to center the content*/
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -35,6 +36,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /*negative value for the top margin to push the content upwards*/
     margin-top: -25px;
   }
   
@@ -49,6 +51,7 @@ body {
   }
   
   h1, h2 {
+    /*if Impact font is not avaible, it will be replaced by serif*/
     font-family: Impact, serif;
   }
   
